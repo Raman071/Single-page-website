@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2;
+    padding: 2;
+  }
+  header {
+    background-color: skyblue;
+    color: blue;
+    padding: 1rem;
+    text-align: center;
+  }
+  nav {
+    text-align: center;
+    margin: 1rem 0;
+  }
+  nav a {
+    margin: 0 1rem;
+    text-decoration: none;
+    color: black;
+  }
+  section {
+    padding: 2rem;
+    margin: 1rem 0;
+    border: 3px solid black;
+  }
+  @media (max-width: 768px) {
+    body {
+      font-size: 15px;
+    }
+  }
+  
